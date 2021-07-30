@@ -88,6 +88,9 @@ $("#hide-all").click(function(){
     $("button").hide(1000);
     $("h5").hide(1000);
     $("#hidden-div").hide(1000);
+    $("#welcome").hide(1000);
+    $("#instructions").hide(1000);
+    $("#changes").hide(1000);
     setInterval(showAgain, 5000)
 
 })
@@ -96,6 +99,9 @@ function showAgain(){
     $("button").show(1000);
     $("h5").show(1000);
     $("#hidden-div").show(1000);
+    $("#welcome").show(1000);
+    $("#instructions").show(1000);
+    $("#changes").show(1000);
 }
 
 $("button").click(function(){
