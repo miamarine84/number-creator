@@ -43,7 +43,6 @@ function randomNum() {
         else {
             console.log('ELSE')
             return numData.push(phoneNum)
-            console.log('did this though')
         }
     
         
