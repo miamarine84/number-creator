@@ -67,7 +67,8 @@ for (let i = 0; i < numData.length; i++) {
 
 
 $("#add").click(function () {
-    for (let i = 0; i < 5; i++) {
+    // This is where i change the number of phones we want to add at a time
+    for (let i = 0; i < 20; i++) {
          randomNum()
 
     }

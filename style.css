@@ -9,3 +9,28 @@ button{
         .myButton:active {
         background: #144E75; 
     }
+
+    #phoneCounter{
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+#welcome{
+    color: #1C6EA4;
+    width: 100%;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+}
+
+ol{
+    font-family: Georgia, serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #000000;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none; 
+}
