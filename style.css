@@ -39,3 +39,8 @@ h5{
     font-size: 20px;
     padding: 10px 10px;
 }
+
+b{
+    text-decoration: underline;
+    text-decoration-color: red;
+}
