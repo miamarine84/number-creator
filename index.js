@@ -29,7 +29,7 @@ function randomNum() {
     // else {
 
 
-    phoneNum = `305${digit4}${digit5}${digit6}${digit7}${digit8}${digit9}${digit10}`;
+    phoneNum = `305${digit4}${digit5}${digit6}${digit7}${digit8}${digit9}${digit10},`;
 
     console.log(phoneNum)
 
