@@ -35,6 +35,10 @@ function randomNum() {
 
     for (let i = 0; i < numData.length+1; i++) {
         console.log(phoneNum, numData)
+        if(phoneNum[3] == 0 || phoneNum[3] == 1){
+            console.log("GOT 0 or 1 ",  phoneNum)
+            return;
+        }
         if (phoneNum === numData[i]) {
             // numData.unshift(phoneNum)
             console.log("IF")
